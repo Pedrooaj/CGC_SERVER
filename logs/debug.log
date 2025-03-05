@@ -1,0 +1,641 @@
+[05mar.2025 18:09:29.707] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[05mar.2025 18:09:29.716] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 23.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[05mar.2025 18:09:29.767] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [fmlclientdev,forgeclient,minecraft,forgegametestserverdev,fmlserveruserdev,fmlclient,fmldatauserdev,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev,fmlserver,fmlclientuserdev,fmlserverdev,forgedatauserdev,testharness,forgegametestserveruserdev]
+[05mar.2025 18:09:29.787] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[05mar.2025 18:09:29.805] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[05mar.2025 18:09:29.814] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[05mar.2025 18:09:29.822] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\conta\OneDrive\Desktop\CGC_SERVER
+[05mar.2025 18:09:29.822] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods
+[05mar.2025 18:09:29.823] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\conta\OneDrive\Desktop\CGC_SERVER\config
+[05mar.2025 18:09:29.824] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\conta\OneDrive\Desktop\CGC_SERVER\config\fml.toml
+[05mar.2025 18:09:29.860] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\config\fml.toml is not correct. Correcting
+[05mar.2025 18:09:29.863] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[05mar.2025 18:09:29.864] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[05mar.2025 18:09:29.865] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[05mar.2025 18:09:29.866] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[05mar.2025 18:09:31.482] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[05mar.2025 18:09:31.490] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05mar.2025 18:09:31.500] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[05mar.2025 18:09:31.500] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[05mar.2025 18:09:31.501] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[05mar.2025 18:09:31.502] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[05mar.2025 18:09:31.502] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[05mar.2025 18:09:31.504] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 1.0
+[05mar.2025 18:09:31.504] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 1.0 loading
+[05mar.2025 18:09:31.504] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[05mar.2025 18:09:31.504] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Requesting CoreMods to not apply the fix for ASMAPI.findFirstInstructionBefore by default
+[05mar.2025 18:09:31.505] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 8.0.4+66+master.c09db6d7
+[05mar.2025 18:09:31.505] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 6.0.5+6.0.5+master.eb8e549b
+[05mar.2025 18:09:31.506] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[05mar.2025 18:09:31.507] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/]: CoreMods will preserve legacy behavior of ASMAPI.findFirstInstructionBefore for backwards-compatibility
+[05mar.2025 18:09:31.507] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.4
+[05mar.2025 18:09:31.508] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 7.0.1+7.0.1+master.d2b38bf6
+[05mar.2025 18:09:31.508] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 5
+[05mar.2025 18:09:31.508] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[05mar.2025 18:09:31.510] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[05mar.2025 18:09:31.518] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[05mar.2025 18:09:31.519] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[05mar.2025 18:09:31.540] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@1e4a7dd4
+[05mar.2025 18:09:31.565] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/conta/OneDrive/Desktop/CGC_SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05mar.2025 18:09:31.571] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[05mar.2025 18:09:31.572] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05mar.2025 18:09:31.573] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05mar.2025 18:09:31.574] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05mar.2025 18:09:31.575] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05mar.2025 18:09:31.575] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05mar.2025 18:09:31.579] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[05mar.2025 18:09:31.580] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[05mar.2025 18:09:31.580] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[05mar.2025 18:09:31.580] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\conta\OneDrive\Desktop\CGC_SERVER
+[05mar.2025 18:09:31.581] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods
+[05mar.2025 18:09:31.581] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\conta\OneDrive\Desktop\CGC_SERVER\config
+[05mar.2025 18:09:31.581] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\conta\OneDrive\Desktop\CGC_SERVER\config\fml.toml
+[05mar.2025 18:09:31.581] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[05mar.2025 18:09:31.585] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[05mar.2025 18:09:31.588] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[05mar.2025 18:09:31.589] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[05mar.2025 18:09:31.612] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[forgeVersion=47.4.0, mcVersion=1.20.1, mcpVersion=20230612.114412, forgeGroup=net.minecraftforge]
+[05mar.2025 18:09:31.613] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[05mar.2025 18:09:31.614] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[05mar.2025 18:09:31.615] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[05mar.2025 18:09:31.615] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[05mar.2025 18:09:31.615] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[05mar.2025 18:09:31.616] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[05mar.2025 18:09:31.616] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[05mar.2025 18:09:31.616] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[05mar.2025 18:09:31.632] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[05mar.2025 18:09:31.637] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null),(userdev classpath:null)
+[05mar.2025 18:09:31.640] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[05mar.2025 18:09:31.651] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\architectury-9.2.14-forge.jar
+[05mar.2025 18:09:31.710] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-9.2.14-forge.jar with {architectury} mods - versions {9.2.14}
+[05mar.2025 18:09:31.716] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ars_nouveau-1.20.1-4.12.6-all.jar
+[05mar.2025 18:09:31.721] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ars_nouveau-1.20.1-4.12.6-all.jar with {ars_nouveau} mods - versions {4.12.6}
+[05mar.2025 18:09:31.725] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\balm-forge-1.20.1-7.3.18-all.jar
+[05mar.2025 18:09:31.728] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-forge-1.20.1-7.3.18-all.jar with {balm} mods - versions {7.3.18}
+[05mar.2025 18:09:31.732] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\BiomesOPlenty-1.20.1-18.0.0.592.jar
+[05mar.2025 18:09:31.733] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.20.1-18.0.0.592.jar with {biomesoplenty} mods - versions {18.0.0.592}
+[05mar.2025 18:09:31.737] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\blockui-1.20.1-1.0.156-RELEASE.jar
+[05mar.2025 18:09:31.739] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file blockui-1.20.1-1.0.156-RELEASE.jar with {blockui} mods - versions {1.20.1-1.0.156-RELEASE}
+[05mar.2025 18:09:31.742] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\blueprint-1.20.1-7.1.2.jar
+[05mar.2025 18:09:31.743] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file blueprint-1.20.1-7.1.2.jar with {blueprint} mods - versions {7.1.2}
+[05mar.2025 18:09:31.749] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Botania-1.20.1-447-FORGE.jar
+[05mar.2025 18:09:31.752] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Botania-1.20.1-447-FORGE.jar with {botania} mods - versions {1.20.1-447-FORGE}
+[05mar.2025 18:09:31.773] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Cobblemon-forge-1.5.2+1.20.1.jar
+[05mar.2025 18:09:31.774] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Cobblemon-forge-1.5.2+1.20.1.jar with {cobblemon} mods - versions {1.5.2+1.20.1}
+[05mar.2025 18:09:31.777] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\cookingforblockheads-forge-1.20.1-16.0.12.jar
+[05mar.2025 18:09:31.778] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cookingforblockheads-forge-1.20.1-16.0.12.jar with {cookingforblockheads} mods - versions {16.0.12}
+[05mar.2025 18:09:31.786] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\create-1.20.1-6.0.1.jar
+[05mar.2025 18:09:31.788] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-1.20.1-6.0.1.jar with {create} mods - versions {6.0.1}
+[05mar.2025 18:09:31.791] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\createaddition-1.20.1-1.3.0.jar
+[05mar.2025 18:09:31.792] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createaddition-1.20.1-1.3.0.jar with {createaddition} mods - versions {1.20.1-1.3.0}
+[05mar.2025 18:09:31.799] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\createdeco-2.0.2-1.20.1-forge.jar
+[05mar.2025 18:09:31.800] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createdeco-2.0.2-1.20.1-forge.jar with {createdeco} mods - versions {2.0.2-1.20.1-forge}
+[05mar.2025 18:09:31.803] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\cristellib-1.1.6-forge.jar
+[05mar.2025 18:09:31.804] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cristellib-1.1.6-forge.jar with {cristellib} mods - versions {1.1.6}
+[05mar.2025 18:09:31.806] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\curios-forge-5.12.1+1.20.1.jar
+[05mar.2025 18:09:31.807] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-forge-5.12.1+1.20.1.jar with {curios} mods - versions {5.12.1+1.20.1}
+[05mar.2025 18:09:31.810] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar
+[05mar.2025 18:09:31.811] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar with {domum_ornamentum} mods - versions {1.20.1-1.0.186-RELEASE}
+[05mar.2025 18:09:31.814] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\endergetic-1.20.1-5.0.1.jar
+[05mar.2025 18:09:31.815] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endergetic-1.20.1-5.0.1.jar with {endergetic} mods - versions {5.0.1}
+[05mar.2025 18:09:31.818] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\endrem_forge-5.3.3-R-1.20.1.jar
+[05mar.2025 18:09:31.819] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endrem_forge-5.3.3-R-1.20.1.jar with {endrem} mods - versions {5.3.3-R-1.20.1}
+[05mar.2025 18:09:31.824] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\FarmersDelight-1.20.1-1.2.7.jar
+[05mar.2025 18:09:31.825] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FarmersDelight-1.20.1-1.2.7.jar with {farmersdelight} mods - versions {1.20.1-1.2.7}
+[05mar.2025 18:09:31.828] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\geckolib-forge-1.20.1-4.7.jar
+[05mar.2025 18:09:31.829] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.20.1-4.7.jar with {geckolib} mods - versions {4.7}
+[05mar.2025 18:09:31.832] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\GlitchCore-forge-1.20.1-0.0.1.1.jar
+[05mar.2025 18:09:31.832] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GlitchCore-forge-1.20.1-0.0.1.1.jar with {glitchcore} mods - versions {0.0.1.1}
+[05mar.2025 18:09:31.836] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\guardvillagers-1.20.1-1.6.10.jar
+[05mar.2025 18:09:31.837] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file guardvillagers-1.20.1-1.6.10.jar with {guardvillagers} mods - versions {1.20.1-1.6.10}
+[05mar.2025 18:09:31.841] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ironchest-1.20.1-14.4.4.jar
+[05mar.2025 18:09:31.842] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ironchest-1.20.1-14.4.4.jar with {ironchest} mods - versions {1.20.1-14.4.4}
+[05mar.2025 18:09:31.845] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ironfurnaces-1.20.1-4.1.6.jar
+[05mar.2025 18:09:31.847] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ironfurnaces-1.20.1-4.1.6.jar with {ironfurnaces} mods - versions {4.1.6}
+[05mar.2025 18:09:31.851] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\jei-1.20.1-forge-15.12.2.51.jar
+[05mar.2025 18:09:31.852] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.20.1-forge-15.12.2.51.jar with {jei} mods - versions {15.12.2.51}
+[05mar.2025 18:09:31.879] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\L_Enders_Cataclysm-2.57- 1.20.1.jar
+[05mar.2025 18:09:31.881] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file L_Enders_Cataclysm-2.57- 1.20.1.jar with {cataclysm} mods - versions {2.57}
+[05mar.2025 18:09:31.884] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\lionfishapi-2.4-Fix.jar
+[05mar.2025 18:09:31.884] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lionfishapi-2.4-Fix.jar with {lionfishapi} mods - versions {2.4-Fix}
+[05mar.2025 18:09:31.887] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Mantle-1.20.1-1.11.44.jar
+[05mar.2025 18:09:31.888] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Mantle-1.20.1-1.11.44.jar with {mantle} mods - versions {1.11.44}
+[05mar.2025 18:09:31.901] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\minecolonies-1.20.1-1.1.603-RELEASE.jar
+[05mar.2025 18:09:31.902] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file minecolonies-1.20.1-1.1.603-RELEASE.jar with {minecolonies} mods - versions {1.20.1-1.1.603-RELEASE}
+[05mar.2025 18:09:31.905] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\multipiston-1.20-1.2.43-RELEASE.jar
+[05mar.2025 18:09:31.906] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file multipiston-1.20-1.2.43-RELEASE.jar with {multipiston} mods - versions {1.20-1.2.43-RELEASE}
+[05mar.2025 18:09:31.909] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\NaturesCompass-1.20.1-1.11.2-forge.jar
+[05mar.2025 18:09:31.910] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file NaturesCompass-1.20.1-1.11.2-forge.jar with {naturescompass} mods - versions {1.20.1-1.11.2-forge}
+[05mar.2025 18:09:31.913] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\OctoLib-FORGE-0.4.2+1.20.1.jar
+[05mar.2025 18:09:31.913] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file OctoLib-FORGE-0.4.2+1.20.1.jar with {octolib} mods - versions {0.4.2}
+[05mar.2025 18:09:31.916] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\pamhc2foodcore-1.20.4-1.0.5.jar
+[05mar.2025 18:09:31.917] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file pamhc2foodcore-1.20.4-1.0.5.jar with {pamhc2foodcore} mods - versions {1.0.5}
+[05mar.2025 18:09:31.920] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Patchouli-1.20.1-84.1-FORGE.jar
+[05mar.2025 18:09:31.920] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.20.1-84.1-FORGE.jar with {patchouli} mods - versions {1.20.1-84.1-FORGE}
+[05mar.2025 18:09:31.923] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\relics-1.20.1-0.8.0.7.jar
+[05mar.2025 18:09:31.924] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file relics-1.20.1-0.8.0.7.jar with {relics} mods - versions {0.8.0.7}
+[05mar.2025 18:09:31.929] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\repurposed_structures-7.1.15+1.20.1-forge.jar
+[05mar.2025 18:09:31.929] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file repurposed_structures-7.1.15+1.20.1-forge.jar with {repurposed_structures} mods - versions {7.1.15+1.20.1-forge}
+[05mar.2025 18:09:31.933] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\SereneSeasons-forge-1.20.1-9.1.0.1.jar
+[05mar.2025 18:09:31.933] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SereneSeasons-forge-1.20.1-9.1.0.1.jar with {sereneseasons} mods - versions {9.1.0.1}
+[05mar.2025 18:09:31.941] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Steam_Rails-1.6.7+forge-mc1.20.1.jar
+[05mar.2025 18:09:31.942] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Steam_Rails-1.6.7+forge-mc1.20.1.jar with {railways} mods - versions {1.6.7+forge-mc1.20.1}
+[05mar.2025 18:09:31.945] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\structurize-1.20.1-1.0.742-RELEASE.jar
+[05mar.2025 18:09:31.946] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file structurize-1.20.1-1.0.742-RELEASE.jar with {structurize} mods - versions {1.20.1-1.0.742-RELEASE}
+[05mar.2025 18:09:31.959] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\TConstruct-1.20.1-3.9.2.37.jar
+[05mar.2025 18:09:31.960] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TConstruct-1.20.1-3.9.2.37.jar with {tconstruct} mods - versions {3.9.2.37}
+[05mar.2025 18:09:31.962] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\TerraBlender-forge-1.20.1-3.0.1.7.jar
+[05mar.2025 18:09:31.963] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TerraBlender-forge-1.20.1-3.0.1.7.jar with {terrablender} mods - versions {3.0.1.7}
+[05mar.2025 18:09:31.966] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Towns-and-Towers-1.12-Fabric+Forge.jar
+[05mar.2025 18:09:31.966] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Towns-and-Towers-1.12-Fabric+Forge.jar with {t_and_t} mods - versions {0.0NONE}
+[05mar.2025 18:09:31.971] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\towntalk-1.20.1-1.1.0.jar
+[05mar.2025 18:09:31.971] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file towntalk-1.20.1-1.1.0.jar with {towntalk} mods - versions {1.1.0}
+[05mar.2025 18:09:31.974] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\travelersbackpack-forge-1.20.1-9.1.16.jar
+[05mar.2025 18:09:31.975] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file travelersbackpack-forge-1.20.1-9.1.16.jar with {travelersbackpack} mods - versions {9.1.16}
+[05mar.2025 18:09:31.980] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\twilightforest-1.20.1-4.3.2508-universal.jar
+[05mar.2025 18:09:31.981] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file twilightforest-1.20.1-4.3.2508-universal.jar with {twilightforest} mods - versions {4.3.2508}
+[05mar.2025 18:09:31.984] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\voicechat-forge-1.20.1-2.5.26.jar
+[05mar.2025 18:09:31.985] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file voicechat-forge-1.20.1-2.5.26.jar with {voicechat} mods - versions {1.20.1-2.5.26}
+[05mar.2025 18:09:31.988] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\waystones-forge-1.20.1-14.1.10.jar
+[05mar.2025 18:09:31.989] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file waystones-forge-1.20.1-14.1.10.jar with {waystones} mods - versions {14.1.10}
+[05mar.2025 18:09:31.991] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\YungsApi-1.20-Forge-4.0.6.jar
+[05mar.2025 18:09:31.992] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsApi-1.20-Forge-4.0.6.jar with {yungsapi} mods - versions {1.20-Forge-4.0.6}
+[05mar.2025 18:09:31.995] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar
+[05mar.2025 18:09:31.996] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar with {betterfortresses} mods - versions {1.20-Forge-2.0.6}
+[05mar.2025 18:09:32.144] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[05mar.2025 18:09:32.151] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.0\fmlcore-1.20.1-47.4.0.jar
+[05mar.2025 18:09:32.151] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.0\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:09:32.157] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.0\javafmllanguage-1.20.1-47.4.0.jar
+[05mar.2025 18:09:32.158] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.0\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:09:32.163] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.0\lowcodelanguage-1.20.1-47.4.0.jar
+[05mar.2025 18:09:32.163] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.0\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:09:32.168] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.0\mclanguage-1.20.1-47.4.0.jar
+[05mar.2025 18:09:32.168] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.0\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:09:32.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\forge\1.20.1-47.4.0\forge-1.20.1-47.4.0-universal.jar
+[05mar.2025 18:09:32.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.0-universal.jar with {forge} mods - versions {47.4.0}
+[05mar.2025 18:09:32.229] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from createdeco-2.0.2-1.20.1-forge.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.229] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from towntalk-1.20.1-1.1.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jei-1.20.1-forge-15.12.2.51.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from multipiston-1.20-1.2.43-RELEASE.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from waystones-forge-1.20.1-14.1.10.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from cookingforblockheads-forge-1.20.1-16.0.12.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from travelersbackpack-forge-1.20.1-9.1.16.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from NaturesCompass-1.20.1-1.11.2-forge.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from SereneSeasons-forge-1.20.1-9.1.0.1.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from YungsApi-1.20-Forge-4.0.6.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.230] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from GlitchCore-forge-1.20.1-0.0.1.1.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from guardvillagers-1.20.1-1.6.10.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from relics-1.20.1-0.8.0.7.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from blueprint-1.20.1-7.1.2.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from forge-1.20.1-47.4.0-universal.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from twilightforest-1.20.1-4.3.2508-universal.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.231] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from ironchest-1.20.1-14.4.4.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from server-1.20.1-20230612.114412-srg.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from TConstruct-1.20.1-3.9.2.37.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from FarmersDelight-1.20.1-1.2.7.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from voicechat-forge-1.20.1-2.5.26.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from TerraBlender-forge-1.20.1-3.0.1.7.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from BiomesOPlenty-1.20.1-18.0.0.592.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from endrem_forge-5.3.3-R-1.20.1.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from ironfurnaces-1.20.1-4.1.6.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Botania-1.20.1-447-FORGE.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lionfishapi-2.4-Fix.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.232] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from L_Enders_Cataclysm-2.57- 1.20.1.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from curios-forge-5.12.1+1.20.1.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Patchouli-1.20.1-84.1-FORGE.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Mantle-1.20.1-1.11.44.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from blockui-1.20.1-1.0.156-RELEASE.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from pamhc2foodcore-1.20.4-1.0.5.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Cobblemon-forge-1.5.2+1.20.1.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from structurize-1.20.1-1.0.742-RELEASE.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from minecolonies-1.20.1-1.1.603-RELEASE.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from architectury-9.2.14-forge.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Towns-and-Towers-1.12-Fabric+Forge.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.233] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from createaddition-1.20.1-1.3.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclanguage-1.20.1-47.4.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from javafmllanguage-1.20.1-47.4.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from fmlcore-1.20.1-47.4.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.234] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from lowcodelanguage-1.20.1-47.4.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.307] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.308] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.4.1.jar with {mixinextras} mods - versions {0.4.1}
+[05mar.2025 18:09:32.318] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.319] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kffmod-4.11.0.jar with {kotlinforforge} mods - versions {4.11.0}
+[05mar.2025 18:09:32.326] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.327] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.2.0-beta.7.jar with {mixinextras} mods - versions {0.2.0-beta.7}
+[05mar.2025 18:09:32.330] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.332] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.3.5.jar with {mixinextras} mods - versions {0.3.5}
+[05mar.2025 18:09:32.357] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.358] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file flywheel-forge-1.20.1-1.0.1-beta-218.jar with {flywheel} mods - versions {1.0.1-beta}
+[05mar.2025 18:09:32.362] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.362] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.5.0-beta.5.jar with {mixinextras} mods - versions {0.5.0-beta.5}
+[05mar.2025 18:09:32.376] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.377] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Ponder-Forge-1.20.1-1.0.38.jar with {ponder} mods - versions {1.0.38}
+[05mar.2025 18:09:32.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.391] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kuma-api-forge-20.1.9-SNAPSHOT.jar with {kuma_api} mods - versions {20.1.9-SNAPSHOT}
+[05mar.2025 18:09:32.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.393] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.2.0-beta.8.jar with {mixinextras} mods - versions {0.2.0-beta.8}
+[05mar.2025 18:09:32.405] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.406] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.20.1-4.4.4.jar with {geckolib} mods - versions {4.4.4}
+[05mar.2025 18:09:32.412] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from kfflang-4.11.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.412] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from kfflib-4.11.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.412] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from kffmod-4.11.0.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.412] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclib-20.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.420] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Registrate-MC1.20-1.3.11.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.420] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from flywheel-forge-1.20.1-1.0.1-beta-218.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.437] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from Ponder-Forge-1.20.1-1.0.38.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.437] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jankson-1.2.3.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.437] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from snakeyaml-2.2.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.437] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from kuma-api-forge-20.1.9-SNAPSHOT.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.443] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from MixinExtras-0.4.1.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.444] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from MixinExtras-0.2.0-beta.7.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.444] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from MixinExtras-0.3.5.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.444] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from MixinExtras-0.5.0-beta.5.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.444] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from MixinExtras-0.2.0-beta.8.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.444] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mclib-20.jar, it does not contain dependency information.
+[05mar.2025 18:09:32.486] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.487] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kuma-api-forge-20.1.9-SNAPSHOT.jar with {kuma_api} mods - versions {20.1.9-SNAPSHOT}
+[05mar.2025 18:09:32.488] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.489] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kffmod-4.11.0.jar with {kotlinforforge} mods - versions {4.11.0}
+[05mar.2025 18:09:32.499] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.500] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.20.1-4.4.4.jar with {geckolib} mods - versions {4.4.4}
+[05mar.2025 18:09:32.506] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.506] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.5.0-beta.5.jar with {mixinextras} mods - versions {0.5.0-beta.5}
+[05mar.2025 18:09:32.518] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.519] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Ponder-Forge-1.20.1-1.0.38.jar with {ponder} mods - versions {1.0.38}
+[05mar.2025 18:09:32.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.534] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file flywheel-forge-1.20.1-1.0.1-beta-218.jar with {flywheel} mods - versions {1.0.1-beta}
+[05mar.2025 18:09:32.538] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.539] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.2.0-beta.8.jar with {mixinextras} mods - versions {0.2.0-beta.8}
+[05mar.2025 18:09:32.547] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[05mar.2025 18:09:32.554] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\geckolib-forge-1.20.1-4.7.jar
+[05mar.2025 18:09:32.555] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
+[05mar.2025 18:09:32.558] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.559] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kuma-api-forge-20.1.9-SNAPSHOT.jar with {kuma_api} mods - versions {20.1.9-SNAPSHOT}
+[05mar.2025 18:09:32.562] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.562] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\createdeco-2.0.2-1.20.1-forge.jar
+[05mar.2025 18:09:32.563] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createdeco-2.0.2-1.20.1-forge.jar with {createdeco} mods - versions {2.0.2-1.20.1-forge}
+[05mar.2025 18:09:32.563] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\createdeco-2.0.2-1.20.1-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.564] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\geckolib-forge-1.20.1-4.7.jar
+[05mar.2025 18:09:32.564] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-forge-1.20.1-4.7.jar with {geckolib} mods - versions {4.7}
+[05mar.2025 18:09:32.564] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\geckolib-forge-1.20.1-4.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.564] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.565] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Ponder-Forge-1.20.1-1.0.38.jar with {ponder} mods - versions {1.0.38}
+[05mar.2025 18:09:32.565] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.565] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\OctoLib-FORGE-0.4.2+1.20.1.jar
+[05mar.2025 18:09:32.566] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file OctoLib-FORGE-0.4.2+1.20.1.jar with {octolib} mods - versions {0.4.2}
+[05mar.2025 18:09:32.566] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\OctoLib-FORGE-0.4.2+1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.566] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\jei-1.20.1-forge-15.12.2.51.jar
+[05mar.2025 18:09:32.566] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.20.1-forge-15.12.2.51.jar with {jei} mods - versions {15.12.2.51}
+[05mar.2025 18:09:32.566] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\jei-1.20.1-forge-15.12.2.51.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.567] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\towntalk-1.20.1-1.1.0.jar
+[05mar.2025 18:09:32.567] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file towntalk-1.20.1-1.1.0.jar with {towntalk} mods - versions {1.1.0}
+[05mar.2025 18:09:32.568] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\towntalk-1.20.1-1.1.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[05mar.2025 18:09:32.568] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\multipiston-1.20-1.2.43-RELEASE.jar
+[05mar.2025 18:09:32.568] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file multipiston-1.20-1.2.43-RELEASE.jar with {multipiston} mods - versions {1.20-1.2.43-RELEASE}
+[05mar.2025 18:09:32.568] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\multipiston-1.20-1.2.43-RELEASE.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[05mar.2025 18:09:32.569] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\create-1.20.1-6.0.1.jar
+[05mar.2025 18:09:32.570] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file create-1.20.1-6.0.1.jar with {create} mods - versions {6.0.1}
+[05mar.2025 18:09:32.570] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\create-1.20.1-6.0.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.570] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\waystones-forge-1.20.1-14.1.10.jar
+[05mar.2025 18:09:32.571] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file waystones-forge-1.20.1-14.1.10.jar with {waystones} mods - versions {14.1.10}
+[05mar.2025 18:09:32.571] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\waystones-forge-1.20.1-14.1.10.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.571] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\cookingforblockheads-forge-1.20.1-16.0.12.jar
+[05mar.2025 18:09:32.571] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cookingforblockheads-forge-1.20.1-16.0.12.jar with {cookingforblockheads} mods - versions {16.0.12}
+[05mar.2025 18:09:32.572] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\cookingforblockheads-forge-1.20.1-16.0.12.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.572] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\NaturesCompass-1.20.1-1.11.2-forge.jar
+[05mar.2025 18:09:32.572] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file NaturesCompass-1.20.1-1.11.2-forge.jar with {naturescompass} mods - versions {1.20.1-1.11.2-forge}
+[05mar.2025 18:09:32.572] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\NaturesCompass-1.20.1-1.11.2-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.572] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\travelersbackpack-forge-1.20.1-9.1.16.jar
+[05mar.2025 18:09:32.573] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file travelersbackpack-forge-1.20.1-9.1.16.jar with {travelersbackpack} mods - versions {9.1.16}
+[05mar.2025 18:09:32.573] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\travelersbackpack-forge-1.20.1-9.1.16.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.573] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\SereneSeasons-forge-1.20.1-9.1.0.1.jar
+[05mar.2025 18:09:32.574] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file SereneSeasons-forge-1.20.1-9.1.0.1.jar with {sereneseasons} mods - versions {9.1.0.1}
+[05mar.2025 18:09:32.574] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\SereneSeasons-forge-1.20.1-9.1.0.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.575] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\YungsApi-1.20-Forge-4.0.6.jar
+[05mar.2025 18:09:32.575] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsApi-1.20-Forge-4.0.6.jar with {yungsapi} mods - versions {1.20-Forge-4.0.6}
+[05mar.2025 18:09:32.575] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\YungsApi-1.20-Forge-4.0.6.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.575] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\GlitchCore-forge-1.20.1-0.0.1.1.jar
+[05mar.2025 18:09:32.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file GlitchCore-forge-1.20.1-0.0.1.1.jar with {glitchcore} mods - versions {0.0.1.1}
+[05mar.2025 18:09:32.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\GlitchCore-forge-1.20.1-0.0.1.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\endergetic-1.20.1-5.0.1.jar
+[05mar.2025 18:09:32.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endergetic-1.20.1-5.0.1.jar with {endergetic} mods - versions {5.0.1}
+[05mar.2025 18:09:32.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\endergetic-1.20.1-5.0.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[32,)]]
+[05mar.2025 18:09:32.576] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\guardvillagers-1.20.1-1.6.10.jar
+[05mar.2025 18:09:32.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file guardvillagers-1.20.1-1.6.10.jar with {guardvillagers} mods - versions {1.20.1-1.6.10}
+[05mar.2025 18:09:32.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\guardvillagers-1.20.1-1.6.10.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\relics-1.20.1-0.8.0.7.jar
+[05mar.2025 18:09:32.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file relics-1.20.1-0.8.0.7.jar with {relics} mods - versions {0.8.0.7}
+[05mar.2025 18:09:32.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\relics-1.20.1-0.8.0.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.577] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\balm-forge-1.20.1-7.3.18-all.jar
+[05mar.2025 18:09:32.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file balm-forge-1.20.1-7.3.18-all.jar with {balm} mods - versions {7.3.18}
+[05mar.2025 18:09:32.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\balm-forge-1.20.1-7.3.18-all.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Steam_Rails-1.6.7+forge-mc1.20.1.jar
+[05mar.2025 18:09:32.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Steam_Rails-1.6.7+forge-mc1.20.1.jar with {railways} mods - versions {1.6.7+forge-mc1.20.1}
+[05mar.2025 18:09:32.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Steam_Rails-1.6.7+forge-mc1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.578] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\blueprint-1.20.1-7.1.2.jar
+[05mar.2025 18:09:32.579] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file blueprint-1.20.1-7.1.2.jar with {blueprint} mods - versions {7.1.2}
+[05mar.2025 18:09:32.579] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\blueprint-1.20.1-7.1.2.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[32,)]]
+[05mar.2025 18:09:32.579] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ars_nouveau-1.20.1-4.12.6-all.jar
+[05mar.2025 18:09:32.579] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ars_nouveau-1.20.1-4.12.6-all.jar with {ars_nouveau} mods - versions {4.12.6}
+[05mar.2025 18:09:32.579] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ars_nouveau-1.20.1-4.12.6-all.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[05mar.2025 18:09:32.579] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar
+[05mar.2025 18:09:32.580] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar with {betterfortresses} mods - versions {1.20-Forge-2.0.6}
+[05mar.2025 18:09:32.580] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.580] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\forge\1.20.1-47.4.0\forge-1.20.1-47.4.0-universal.jar
+[05mar.2025 18:09:32.580] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.20.1-47.4.0-universal.jar with {forge} mods - versions {47.4.0}
+[05mar.2025 18:09:32.580] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\forge\1.20.1-47.4.0\forge-1.20.1-47.4.0-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[05mar.2025 18:09:32.583] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\twilightforest-1.20.1-4.3.2508-universal.jar
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file twilightforest-1.20.1-4.3.2508-universal.jar with {twilightforest} mods - versions {4.3.2508}
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\twilightforest-1.20.1-4.3.2508-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod seed with Javascript path META-INF/asm/seed.js
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod maprendercontext with Javascript path META-INF/asm/maprendercontext.js
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod music with Javascript path META-INF/asm/music.js
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod multipart with Javascript path META-INF/asm/multipart.js
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod foliage with Javascript path META-INF/asm/foliage.js
+[05mar.2025 18:09:32.584] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod mount with Javascript path META-INF/asm/mount.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod book with Javascript path META-INF/asm/book.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod conquered with Javascript path META-INF/asm/conquered.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod reach with Javascript path META-INF/asm/reach.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod shroom with Javascript path META-INF/asm/shroom.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod cloud with Javascript path META-INF/asm/cloud.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod lead with Javascript path META-INF/asm/lead.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/seed.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/maprendercontext.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/music.js
+[05mar.2025 18:09:32.585] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/multipart.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/foliage.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/mount.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/book.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/conquered.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/reach.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/shroom.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/cloud.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/asm/lead.js
+[05mar.2025 18:09:32.586] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ironchest-1.20.1-14.4.4.jar
+[05mar.2025 18:09:32.587] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ironchest-1.20.1-14.4.4.jar with {ironchest} mods - versions {1.20.1-14.4.4}
+[05mar.2025 18:09:32.587] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ironchest-1.20.1-14.4.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.587] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\FarmersDelight-1.20.1-1.2.7.jar
+[05mar.2025 18:09:32.588] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FarmersDelight-1.20.1-1.2.7.jar with {farmersdelight} mods - versions {1.20.1-1.2.7}
+[05mar.2025 18:09:32.589] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\FarmersDelight-1.20.1-1.2.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.589] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\TConstruct-1.20.1-3.9.2.37.jar
+[05mar.2025 18:09:32.591] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TConstruct-1.20.1-3.9.2.37.jar with {tconstruct} mods - versions {3.9.2.37}
+[05mar.2025 18:09:32.591] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\TConstruct-1.20.1-3.9.2.37.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[05mar.2025 18:09:32.591] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.1-20230612.114412-srg.jar with {minecraft} mods - versions {1.20.1}
+[05mar.2025 18:09:32.591] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraft\server\1.20.1-20230612.114412\server-1.20.1-20230612.114412-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[05mar.2025 18:09:32.592] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\repurposed_structures-7.1.15+1.20.1-forge.jar
+[05mar.2025 18:09:32.592] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file repurposed_structures-7.1.15+1.20.1-forge.jar with {repurposed_structures} mods - versions {7.1.15+1.20.1-forge}
+[05mar.2025 18:09:32.592] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\repurposed_structures-7.1.15+1.20.1-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[38,)]]
+[05mar.2025 18:09:32.592] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\voicechat-forge-1.20.1-2.5.26.jar
+[05mar.2025 18:09:32.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file voicechat-forge-1.20.1-2.5.26.jar with {voicechat} mods - versions {1.20.1-2.5.26}
+[05mar.2025 18:09:32.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\voicechat-forge-1.20.1-2.5.26.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[05mar.2025 18:09:32.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\TerraBlender-forge-1.20.1-3.0.1.7.jar
+[05mar.2025 18:09:32.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file TerraBlender-forge-1.20.1-3.0.1.7.jar with {terrablender} mods - versions {3.0.1.7}
+[05mar.2025 18:09:32.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\TerraBlender-forge-1.20.1-3.0.1.7.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.593] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\BiomesOPlenty-1.20.1-18.0.0.592.jar
+[05mar.2025 18:09:32.594] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file BiomesOPlenty-1.20.1-18.0.0.592.jar with {biomesoplenty} mods - versions {18.0.0.592}
+[05mar.2025 18:09:32.594] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\BiomesOPlenty-1.20.1-18.0.0.592.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[45,)]]
+[05mar.2025 18:09:32.594] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\endrem_forge-5.3.3-R-1.20.1.jar
+[05mar.2025 18:09:32.594] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file endrem_forge-5.3.3-R-1.20.1.jar with {endrem} mods - versions {5.3.3-R-1.20.1}
+[05mar.2025 18:09:32.594] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\endrem_forge-5.3.3-R-1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.594] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ironfurnaces-1.20.1-4.1.6.jar
+[05mar.2025 18:09:32.595] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file ironfurnaces-1.20.1-4.1.6.jar with {ironfurnaces} mods - versions {4.1.6}
+[05mar.2025 18:09:32.595] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\ironfurnaces-1.20.1-4.1.6.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.595] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Botania-1.20.1-447-FORGE.jar
+[05mar.2025 18:09:32.595] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Botania-1.20.1-447-FORGE.jar with {botania} mods - versions {1.20.1-447-FORGE}
+[05mar.2025 18:09:32.595] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Botania-1.20.1-447-FORGE.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.596] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar
+[05mar.2025 18:09:32.596] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar with {domum_ornamentum} mods - versions {1.20.1-1.0.186-RELEASE}
+[05mar.2025 18:09:32.596] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\domum_ornamentum-1.20.1-1.0.186-RELEASE-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[28,)]]
+[05mar.2025 18:09:32.596] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\lionfishapi-2.4-Fix.jar
+[05mar.2025 18:09:32.596] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file lionfishapi-2.4-Fix.jar with {lionfishapi} mods - versions {2.4-Fix}
+[05mar.2025 18:09:32.596] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\lionfishapi-2.4-Fix.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.596] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file kffmod-4.11.0.jar with {kotlinforforge} mods - versions {4.11.0}
+[05mar.2025 18:09:32.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=kotlinforforge, acceptedVersions=[4,)]]
+[05mar.2025 18:09:32.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file flywheel-forge-1.20.1-1.0.1-beta-218.jar with {flywheel} mods - versions {1.0.1-beta}
+[05mar.2025 18:09:32.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=[0,)]]
+[05mar.2025 18:09:32.597] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\curios-forge-5.12.1+1.20.1.jar
+[05mar.2025 18:09:32.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file curios-forge-5.12.1+1.20.1.jar with {curios} mods - versions {5.12.1+1.20.1}
+[05mar.2025 18:09:32.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\curios-forge-5.12.1+1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[41,)]]
+[05mar.2025 18:09:32.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\L_Enders_Cataclysm-2.57- 1.20.1.jar
+[05mar.2025 18:09:32.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file L_Enders_Cataclysm-2.57- 1.20.1.jar with {cataclysm} mods - versions {2.57}
+[05mar.2025 18:09:32.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\L_Enders_Cataclysm-2.57- 1.20.1.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[36,)]]
+[05mar.2025 18:09:32.598] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\blockui-1.20.1-1.0.156-RELEASE.jar
+[05mar.2025 18:09:32.599] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file blockui-1.20.1-1.0.156-RELEASE.jar with {blockui} mods - versions {1.20.1-1.0.156-RELEASE}
+[05mar.2025 18:09:32.599] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\blockui-1.20.1-1.0.156-RELEASE.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.599] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Mantle-1.20.1-1.11.44.jar
+[05mar.2025 18:09:32.599] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Mantle-1.20.1-1.11.44.jar with {mantle} mods - versions {1.11.44}
+[05mar.2025 18:09:32.599] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Mantle-1.20.1-1.11.44.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[05mar.2025 18:09:32.599] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Patchouli-1.20.1-84.1-FORGE.jar
+[05mar.2025 18:09:32.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.20.1-84.1-FORGE.jar with {patchouli} mods - versions {1.20.1-84.1-FORGE}
+[05mar.2025 18:09:32.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Patchouli-1.20.1-84.1-FORGE.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\pamhc2foodcore-1.20.4-1.0.5.jar
+[05mar.2025 18:09:32.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file pamhc2foodcore-1.20.4-1.0.5.jar with {pamhc2foodcore} mods - versions {1.0.5}
+[05mar.2025 18:09:32.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\pamhc2foodcore-1.20.4-1.0.5.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[05mar.2025 18:09:32.600] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Cobblemon-forge-1.5.2+1.20.1.jar
+[05mar.2025 18:09:32.602] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Cobblemon-forge-1.5.2+1.20.1.jar with {cobblemon} mods - versions {1.5.2+1.20.1}
+[05mar.2025 18:09:32.602] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Cobblemon-forge-1.5.2+1.20.1.jar with languages [LanguageSpec[languageName=kotlinforforge, acceptedVersions=[3,)]]
+[05mar.2025 18:09:32.602] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\structurize-1.20.1-1.0.742-RELEASE.jar
+[05mar.2025 18:09:32.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file structurize-1.20.1-1.0.742-RELEASE.jar with {structurize} mods - versions {1.20.1-1.0.742-RELEASE}
+[05mar.2025 18:09:32.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\structurize-1.20.1-1.0.742-RELEASE.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.603] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\minecolonies-1.20.1-1.1.603-RELEASE.jar
+[05mar.2025 18:09:32.604] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file minecolonies-1.20.1-1.1.603-RELEASE.jar with {minecolonies} mods - versions {1.20.1-1.1.603-RELEASE}
+[05mar.2025 18:09:32.605] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\minecolonies-1.20.1-1.1.603-RELEASE.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[45,)]]
+[05mar.2025 18:09:32.605] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\architectury-9.2.14-forge.jar
+[05mar.2025 18:09:32.606] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-9.2.14-forge.jar with {architectury} mods - versions {9.2.14}
+[05mar.2025 18:09:32.606] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\architectury-9.2.14-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[46,)]]
+[05mar.2025 18:09:32.606] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Towns-and-Towers-1.12-Fabric+Forge.jar
+[05mar.2025 18:09:32.607] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Towns-and-Towers-1.12-Fabric+Forge.jar with {t_and_t} mods - versions {0.0NONE}
+[05mar.2025 18:09:32.608] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\Towns-and-Towers-1.12-Fabric+Forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[43,)]]
+[05mar.2025 18:09:32.608] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\createaddition-1.20.1-1.3.0.jar
+[05mar.2025 18:09:32.609] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file createaddition-1.20.1-1.3.0.jar with {createaddition} mods - versions {1.20.1-1.3.0}
+[05mar.2025 18:09:32.609] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\createaddition-1.20.1-1.3.0.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[40,)]]
+[05mar.2025 18:09:32.609] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\cristellib-1.1.6-forge.jar
+[05mar.2025 18:09:32.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file cristellib-1.1.6-forge.jar with {cristellib} mods - versions {1.1.6}
+[05mar.2025 18:09:32.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\cristellib-1.1.6-forge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[47,)]]
+[05mar.2025 18:09:32.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.610] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.5.0-beta.5.jar with {mixinextras} mods - versions {0.5.0-beta.5}
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate 
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file mixinextras-forge-0.5.0-beta.5.jar with {mixinextras} mods - versions {0.5.0-beta.5}
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages [LanguageSpec[languageName=javafml, acceptedVersions=*]]
+[05mar.2025 18:09:32.611] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.612] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.612] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.612] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[05mar.2025 18:09:32.613] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[05mar.2025 18:09:32.634] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 4 language providers
+[05mar.2025 18:09:32.635] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[05mar.2025 18:09:32.636] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 47
+[05mar.2025 18:09:32.636] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider kotlinforforge, version 4.11.0
+[05mar.2025 18:09:32.636] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 47
+[05mar.2025 18:09:32.644] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid mclib, selecting most recent based on version data
+[05mar.2025 18:09:32.645] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file mclib-20.jar for modid mclib with version 0.0NONE
+[05mar.2025 18:09:32.646] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid Registrate.MC1._20, selecting most recent based on version data
+[05mar.2025 18:09:32.646] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file Registrate-MC1.20-1.3.11.jar for modid Registrate.MC1._20 with version 0.0NONE
+[05mar.2025 18:09:32.646] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid mixinextras, selecting most recent based on version data
+[05mar.2025 18:09:32.646] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file mixinextras-forge-0.5.0-beta.5.jar for modid mixinextras with version 0.5.0-beta.5
+[05mar.2025 18:09:32.646] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid org.yaml.snakeyaml, selecting most recent based on version data
+[05mar.2025 18:09:32.647] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file snakeyaml-2.2.jar for modid org.yaml.snakeyaml with version 0.0NONE
+[05mar.2025 18:09:32.647] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid jankson, selecting most recent based on version data
+[05mar.2025 18:09:32.647] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file jankson-1.2.3.jar for modid jankson with version 0.0NONE
+[05mar.2025 18:09:32.647] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid MixinExtras.beta._5, selecting most recent based on version data
+[05mar.2025 18:09:32.647] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file MixinExtras-0.5.0-beta.5.jar for modid MixinExtras.beta._5 with version 0.0NONE
+[05mar.2025 18:09:32.647] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid thedarkcolour.kotlinforforge.kfflib, selecting most recent based on version data
+[05mar.2025 18:09:32.647] [main/DEBUG] [net.minecraftforge.fml.loading.UniqueModListBuilder/]: Selected file kfflib-4.11.0.jar for modid thedarkcolour.kotlinforforge.kfflib with version 4.11.0
+[05mar.2025 18:09:32.650] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[05mar.2025 18:09:32.650] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[05mar.2025 18:09:32.650] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[05mar.2025 18:09:32.654] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 130 mod requirements (116 mandatory, 14 optional)
+[05mar.2025 18:09:32.656] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 1 mod requirements missing (0 mandatory, 1 optional)
+[05mar.2025 18:09:32.657] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Unsupported installed optional dependencies:
+	Mod ID: 'jei', Requested by: 'tconstruct', Expected range: '[15.20.0.103,)', Actual version: '15.12.2.51'
+[05mar.2025 18:09:33.175] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[05mar.2025 18:09:33.176] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[05mar.2025 18:09:33.176] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[05mar.2025 18:09:33.177] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[05mar.2025 18:09:33.177] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[05mar.2025 18:09:33.177] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[05mar.2025 18:09:33.467] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[05mar.2025 18:09:33.467] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[05mar.2025 18:09:33.601] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[05mar.2025 18:09:33.602] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[05mar.2025 18:09:33.677] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[05mar.2025 18:09:33.677] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[05mar.2025 18:09:33.803] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[05mar.2025 18:09:33.819] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@239f017e to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[05mar.2025 18:09:33.821] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2db2a05f to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[05mar.2025 18:09:33.821] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@695c938d to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[05mar.2025 18:09:33.821] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@d5bb1c4 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[05mar.2025 18:09:33.821] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7ed3df3b to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[05mar.2025 18:09:33.822] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@465b38e6 to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[05mar.2025 18:09:33.822] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@4b960b5b to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[05mar.2025 18:09:33.822] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1b13467c to Target : CLASS {Lnet/minecraft/world/item/ItemStack;} {} {V}
+[05mar.2025 18:09:33.822] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7bd96822 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[05mar.2025 18:09:33.823] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[05mar.2025 18:09:33.824] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[05mar.2025 18:09:33.825] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@64dae3b7 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[05mar.2025 18:09:33.825] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(forge)
+[05mar.2025 18:09:34.322] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(forge)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(forge)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(forge)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(forge)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mclib)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mclib)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mclib)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mclib)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mclib)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mclib)]
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(Registrate.MC1._20)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(Registrate.MC1._20)
+[05mar.2025 18:09:34.335] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(Registrate.MC1._20)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(Registrate.MC1._20)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(Registrate.MC1._20)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(Registrate.MC1._20)]
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras)
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+[05mar.2025 18:09:34.338] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json
+[05mar.2025 18:09:34.384] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.yaml.snakeyaml)
+[05mar.2025 18:09:34.384] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.yaml.snakeyaml)
+[05mar.2025 18:09:34.384] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.yaml.snakeyaml)
+[05mar.2025 18:09:34.384] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.yaml.snakeyaml)
+[05mar.2025 18:09:34.384] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.yaml.snakeyaml)
+[05mar.2025 18:09:34.384] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.yaml.snakeyaml)]
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jankson)
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jankson)
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jankson)
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jankson)
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jankson)
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jankson)]
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(MixinExtras.beta._5)
+[05mar.2025 18:09:34.385] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(MixinExtras.beta._5)
+[05mar.2025 18:09:34.386] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(MixinExtras.beta._5)
+[05mar.2025 18:09:34.386] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(MixinExtras.beta._5)
+[05mar.2025 18:09:34.386] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(MixinExtras.beta._5)
+[05mar.2025 18:09:34.386] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras.beta._5)]
+[05mar.2025 18:09:34.386] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(thedarkcolour.kotlinforforge.kfflib)
+[05mar.2025 18:09:34.386] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(thedarkcolour.kotlinforforge.kfflib)
+[05mar.2025 18:09:34.386] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(thedarkcolour.kotlinforforge.kfflib)
+[05mar.2025 18:09:34.387] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(thedarkcolour.kotlinforforge.kfflib)
+[05mar.2025 18:09:34.387] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(thedarkcolour.kotlinforforge.kfflib)
+[05mar.2025 18:09:34.387] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(thedarkcolour.kotlinforforge.kfflib)]
+[05mar.2025 18:09:34.387] [main/DEBUG] [mixin/]: inject() running with 10 agents
+[05mar.2025 18:09:34.387] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[05mar.2025 18:09:34.387] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[05mar.2025 18:09:34.387] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(forge)]
+[05mar.2025 18:09:34.388] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mclib)]
+[05mar.2025 18:09:34.388] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(Registrate.MC1._20)]
+[05mar.2025 18:09:34.388] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras)]
+[05mar.2025 18:09:34.388] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.yaml.snakeyaml)]
+[05mar.2025 18:09:34.388] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jankson)]
+[05mar.2025 18:09:34.388] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(MixinExtras.beta._5)]
+[05mar.2025 18:09:34.388] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(thedarkcolour.kotlinforforge.kfflib)]
+[05mar.2025 18:09:34.389] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[05mar.2025 18:09:34.480] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[05mar.2025 18:09:34.483] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[05mar.2025 18:09:34.484] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[05mar.2025 18:09:34.589] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.5) is taking over from null
+[05mar.2025 18:09:34.661] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[05mar.2025 18:09:34.663] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[05mar.2025 18:09:34.666] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[05mar.2025 18:09:34.669] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[05mar.2025 18:09:34.671] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[05mar.2025 18:09:34.674] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[05mar.2025 18:09:34.703] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[05mar.2025 18:09:34.772] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[05mar.2025 18:09:34.777] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[05mar.2025 18:09:34.777] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[05mar.2025 18:09:35.050] [main/WARN] [net.minecraft.server.Eula/]: Failed to load eula.txt
+[05mar.2025 18:09:35.079] [main/INFO] [net.minecraft.server.Main/]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
