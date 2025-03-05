@@ -1,21 +1,72 @@
-[05mar.2025 18:09:29.707] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[05mar.2025 18:09:29.716] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 23.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[05mar.2025 18:09:29.860] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\config\fml.toml is not correct. Correcting
-[05mar.2025 18:09:29.863] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
-[05mar.2025 18:09:29.864] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
-[05mar.2025 18:09:29.865] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
-[05mar.2025 18:09:29.866] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
-[05mar.2025 18:09:31.490] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[05mar.2025 18:09:31.565] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/conta/OneDrive/Desktop/CGC_SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[05mar.2025 18:09:32.151] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.0\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[05mar.2025 18:09:32.158] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.0\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[05mar.2025 18:09:32.163] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.0\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[05mar.2025 18:09:32.168] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.0\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[05mar.2025 18:09:32.547] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[05mar.2025 18:09:32.554] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\geckolib-forge-1.20.1-4.7.jar
-[05mar.2025 18:09:32.555] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
-[05mar.2025 18:09:32.657] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Unsupported installed optional dependencies:
+[05mar.2025 18:12:46.743] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[05mar.2025 18:12:46.752] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 23.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[05mar.2025 18:12:49.034] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05mar.2025 18:12:49.127] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/conta/OneDrive/Desktop/CGC_SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05mar.2025 18:12:49.764] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.0\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:12:49.770] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.0\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:12:49.775] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.0\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:12:49.780] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\conta\OneDrive\Desktop\CGC_SERVER\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.0\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05mar.2025 18:12:50.180] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[05mar.2025 18:12:50.183] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\conta\OneDrive\Desktop\CGC_SERVER\mods\geckolib-forge-1.20.1-4.7.jar
+[05mar.2025 18:12:50.184] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
+[05mar.2025 18:12:50.302] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Unsupported installed optional dependencies:
 	Mod ID: 'jei', Requested by: 'tconstruct', Expected range: '[15.20.0.103,)', Actual version: '15.12.2.51'
-[05mar.2025 18:09:34.389] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[05mar.2025 18:09:35.050] [main/WARN] [net.minecraft.server.Eula/]: Failed to load eula.txt
-[05mar.2025 18:09:35.079] [main/INFO] [net.minecraft.server.Main/]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[05mar.2025 18:12:51.923] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[05mar.2025 18:12:59.932] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §etconstruct§r only supports §3jei§r §o15.20.0.103 or above§r
+§7Currently, §3jei§r§7 is §o15.12.2.51
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.4.0.jar%23200!/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1FlatMap.accept(ReferencePipeline.java:294) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:96) ~[fmlcore-1.20.1-47.4.0.jar%23200!/:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:128) ~[fmlcore-1.20.1-47.4.0.jar%23200!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.4.0-universal.jar%23204!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23199!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05mar.2025 18:13:00.182] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2025-03-05_18.13.00-fml.txt
+[05mar.2025 18:13:00.187] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Mod §etconstruct§r only supports §3jei§r §o15.20.0.103 or above§r
+§7Currently, §3jei§r§7 is §o15.12.2.51
+]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.4.0.jar%23200!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.4.0-universal.jar%23204!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23199!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
