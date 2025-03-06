@@ -1734,5 +1734,11 @@
     },
     "done": false
   },
+  "ironchest:recipes/decorations/chests/vanilla_dirt_chest": {
+    "criteria": {
+      "has_iron_ingot": "2025-03-06 01:44:29 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
