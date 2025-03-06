@@ -12,7 +12,7 @@ git config --global user.email "$GIT_USER_EMAIL"
 echo "Realizando commit e push para o GitHub..."
 git add "$MINECRAFT_DIR/."
 git commit -m "Backup automático do Minecraft - $TIMESTAMP"
-git push
+git push -f
 
 # Verificar se o push foi bem-sucedido
 if [ $? -eq 0 ]; then
